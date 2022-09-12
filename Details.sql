@@ -1,0 +1,8 @@
+CREATE TABLE `Details` (
+	a DECIMAL(38, 0) NOT NULL, 
+	`Link` VARCHAR(43) NOT NULL, 
+	`Title` VARCHAR(100) NOT NULL, 
+	likes VARCHAR(4) NOT NULL, 
+	`ThumbNail` VARCHAR(52) NOT NULL, 
+	`Comments_Cnt` VARCHAR(14) NOT NULL
+);

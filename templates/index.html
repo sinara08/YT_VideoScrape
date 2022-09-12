@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>YT Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <div class="form">
+        <a href="https://github.com/sinara08/YT_Video_Scrape" title="GitHub">GitHub</a>
+
+
+        <form action="/review" method="POST">
+
+            <input type="Submit" name="submit_button" value="Tulesko" />
+            <input type="Submit" name="submit_button" value="mysirg" />
+            <input type="Submit" name="submit_button" value="Krish Naik" />
+            <input type="Submit" name="submit_button" value="hitesh choudhary" />
+        </form>
+    </div>
+</div>
+{% endblock %}

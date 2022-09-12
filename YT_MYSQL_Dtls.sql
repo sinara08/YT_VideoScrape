@@ -1,0 +1,10 @@
+CREATE TABLE `YT_MYSQL_Dtls` (
+	`Channel_Owner` VARCHAR(10) NOT NULL, 
+	`Link` VARCHAR(43) NOT NULL, 
+	`Title` VARCHAR(62) NOT NULL, 
+	likes DECIMAL(38, 0) NOT NULL, 
+	`ThumbNail` VARCHAR(52) NOT NULL, 
+	`Comments_Cnt` VARCHAR(11) NOT NULL, 
+	`Comment_Users_lst` VARCHAR(415) NOT NULL, 
+	`GLink` VARCHAR(83) NOT NULL
+);
