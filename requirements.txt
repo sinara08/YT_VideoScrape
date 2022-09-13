@@ -9,3 +9,5 @@ requests==2.27.1
 selenium==4.4.3
 gunicorn==19.9.0
 urllib3==1.26.12
+pymongo[srv]==2.2.1
+
