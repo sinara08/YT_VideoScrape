@@ -6,11 +6,9 @@ import mysql.connector as conn
 import urllib.request
 import base64
 import pymongo
-import json
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
-from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 
 
@@ -23,7 +21,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.service import Service
-from functools import reduce
 from pytube import YouTube
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
